@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_3/audio_video_flutter/screen_page/menu_utama_page.dart';
 import 'package:mobile_3/lat_30_mei/list_audio.dart';
-import 'package:mobile_3/lat_30_mei/splash_screen.dart';
+import 'package:mobile_3/lat_6_juni/page_list_user.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SplashScreen(),
+      home: PageListUser(),
       debugShowCheckedModeBanner: false,
     );
   }
